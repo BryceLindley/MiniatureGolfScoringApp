@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Miniature Golf Scoring App</string>
+    <string name="player_1">Player 1</string>
+    <string name="_0">0</string>
+    <string name="eagle">Eagle</string>
+    <string name="birdie">Birdie</string>
+    <string name="par">Par</string>
+    <string name="bogie">Bogie</string>
+    <string name="player_2">Player 2</string>
+    <string name="_02">0</string>
+    <string name="eagle2">Eagle</string>
+    <string name="birdie2">Birdie</string>
+    <string name="par2">Par</string>
+    <string name="bogie2">Bogie</string>
+    <string name="reset2">Reset</string>
+</resources>

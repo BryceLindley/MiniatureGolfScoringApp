@@ -1,0 +1,133 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha=".75"
+        android:background="#c6f68d"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="4dp"
+                android:paddingBottom="16dp"
+                android:paddingTop="16dp"
+                android:text="@string/player_1"
+                android:textColor="@color/edit_text_text_color"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/playerOne"
+                style="@style/round"
+                android:gravity="center"
+                android:text="@string/_0"
+                android:textSize="56sp" />
+
+            <Button
+                style="@style/round"
+                android:onClick="onePutt"
+                android:text="@string/eagle" />
+
+
+            <Button
+                style="@style/round"
+                android:onClick="twoPutts"
+                android:text="@string/birdie" />
+
+            <Button
+                style="@style/round"
+                android:onClick="threePutts"
+                android:text="@string/par" />
+
+            <Button
+                style="@style/round"
+                android:onClick="fourPutts"
+                android:text="@string/bogie" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="190dp"
+            android:background="@android:color/holo_green_light" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="4dp"
+                android:paddingBottom="24dp"
+                android:paddingTop="16dp"
+                android:text="@string/player_2"
+                android:textColor="#0f4d19"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/playerTwo"
+                style="@style/round"
+                android:gravity="center"
+                android:text="@string/_02"
+                android:textSize="56sp" />
+
+            <Button
+                style="@style/round"
+                android:onClick="onePuttp"
+                android:text="@string/eagle2" />
+
+
+            <Button
+                style="@style/round"
+                android:onClick="twoPuttsp"
+                android:text="@string/birdie2" />
+
+            <Button
+                style="@style/round"
+                android:onClick="threePuttsp"
+                android:text="@string/par2" />
+
+            <Button
+                style="@style/round"
+                android:onClick="fourPuttsp"
+                android:text="@string/bogie2" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="150dp"
+        android:layout_marginTop="420dp"
+        android:background="@drawable/round"
+        android:onClick="reset"
+        android:text="@string/reset2"
+        android:textColor="#ffebee"
+        android:textSize="12sp" />
+
+</RelativeLayout>
+
